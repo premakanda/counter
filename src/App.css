@@ -1,0 +1,94 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.counter {
+  width: 20%;
+  border: 3px solid #59D0FF;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.counterItem {
+  background-color:  #59D0FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  min-height: 140px;
+  box-sizing: border-box;
+}
+
+.counterInput {
+  padding: 9px;
+  margin-bottom: 20px;
+  background-color:  #59D0FF;
+}
+
+.item {
+  font-size: 26px;
+  color: #282c34;
+}
+
+.itemRed {
+  transform: scale(1.5);
+  font-weight: bold;
+  color: red;
+}
+
+.counterBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 40%;
+  /*background-color: #59D0FF;*/
+  border: none;
+  font-size: calc(26px + 2vmin);
+  /*color: #282c34;*/
+  cursor: pointer;
+}
+
+.counterError {
+  color: red;
+}
+
+.buttonValue {
+  opacity: 0.5;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  color: #282c34;
+  font-size: 30px;
+}
+
+.input {
+  font-size: 20px;
+  width: 50px;
+  margin-left: 30px;
+  padding-left: 44px;
+  border: 2px solid #282c34;
+  border-radius: 5px;
+  color: #282c34;
+  background-color: #fff;
+}
+
+.inputValue {
+  border: 2px solid #e9548d;
+  background-color: #e9548d;
+}
+
+.blockBtn {
+  display: flex;
+  justify-content: center;
+}
